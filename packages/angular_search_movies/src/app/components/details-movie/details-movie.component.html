@@ -1,0 +1,10 @@
+<section *ngFor="let moviesDetails of detailsMovie?.results" class="container-information_movie">
+    <img src="https://image.tmdb.org/t/p/w500{{moviesDetails?.backdrop_path}}"/>
+    <div  class="about-movie">
+        <h2>{{moviesDetails?.title}}</h2>
+        <p>Data: {{moviesDetails?.release_date}}</p>
+        <p>Overview: {{moviesDetails?.overview}}</p>
+        <p>Generos: {{moviesDetails?.genre_ids}}</p>
+        <p>Popularidade: {{moviesDetails?.popularity}}</p>
+    </div>
+</section>

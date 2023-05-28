@@ -1,0 +1,3 @@
+<nav class="container-menu">
+    <button *ngFor="let genderMenu of gendersMovie"  class="button-gender" (click)="selectedGenre(genderMenu)">{{genderMenu.name}}</button>
+</nav>

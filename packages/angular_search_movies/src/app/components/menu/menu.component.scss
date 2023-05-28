@@ -1,0 +1,14 @@
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.button-gender{
+    background-color: #5e63b6;
+    border: #5e63b6;
+    border-radius: 5px;
+    color: #f5c7f7;
+    padding: 10px;
+    margin: 0 0 5px 0;
+}

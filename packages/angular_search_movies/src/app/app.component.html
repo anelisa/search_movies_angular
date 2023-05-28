@@ -1,0 +1,8 @@
+<div>
+  <h1 class="title-details-movie">Detalhes dos filmes da Anelisa</h1>
+  <div class="container-details-movie">
+    <app-menu (genreSelected)="genreSelectId($event)"></app-menu>
+    <app-details-movie *ngIf="moviesDetails" [detailsMovie]="moviesDetails" ></app-details-movie>
+  </div>
+  
+</div>
